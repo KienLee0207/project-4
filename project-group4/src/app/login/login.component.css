@@ -1,0 +1,62 @@
+
+.login {
+    width: 380px;
+    font-family: 'Spartan';
+    margin:  50px auto;
+    padding: 20px;
+
+    box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.08);
+}
+.logo {
+    width: 100%;
+}
+.logo img {
+    width: 100%;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background: #fff !important; 
+}
+::ng-deep .mat-form-field {
+    width: 100% !important;
+}
+::ng-deep .mat-input-element  {
+    background: #fff;
+
+}
+.hide {
+    background: #fff;
+    border: none;
+}
+/* .register a:nth-child(2) {
+    float: right;
+
+}
+.register a:nth-child(1) {
+    float: left;
+
+} */
+
+.register  a:nth-child(2) {
+    right: 0;
+}
+.register a {
+    align-items: center;
+    text-decoration:  none;
+
+    font-size: 12px;
+}
+.register .col-lg-6 {
+    padding: 0;
+}
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+.submit button{
+    outline: none;
+    border: none;
+}
+.submit button:focus {
+    border:1px solid #c0392b
+}
+

@@ -1,0 +1,89 @@
+
+.all-product {
+    margin-top: 40px;
+}
+.title {
+    box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.08);
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+}
+.title:hover {
+    box-shadow: 0px 0px 35px 12px rgba(0,0,0,0.08);
+}
+.title h2 {
+    margin: 0;
+    font-size: 20px;
+}
+a:hover{
+text-decoration: none;
+}
+a {
+    color: #1a334c;
+}
+.list-product {
+ margin-top: 30px;
+}
+.box-img {
+    width:100% ;
+}
+.box-img img {
+    width: 100%;
+}
+.countdown-time p span {
+    color:#b33939;
+}
+p {
+    margin: 0;
+}
+.item {
+    background: #fff;
+    border :1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.08);
+}
+.item h4 {
+    font-weight: bold;
+}
+.title-item {
+    padding : 10px ;
+
+}
+.title-item h4 {
+    font-size: 22px;
+}
+.description {
+    padding-bottom: 10px;
+    color: #aaa69d;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    font-size: 13px;
+}
+.timeout {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.item {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.auction-present i {
+    padding: 5px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 50%;
+    background: #fa983a;
+}
+.auction-present {
+    text-align: center;
+    font-weight: bold;
+}
+.linecamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

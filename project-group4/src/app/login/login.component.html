@@ -1,0 +1,47 @@
+<section>
+  <div class="container" style="background: #fff;">
+    <div class="row">
+      <div class="login">
+      <div class="logo">
+          <div class="text-center">
+            <p>
+            <img src="../../assets/images/logo1.jpg" alt="" style="width: 150px;">
+            </p>
+            <h3>Sysem Login</h3>
+          </div>
+      </div>
+          <div class="example-container">
+            <mat-form-field appearance="fill">
+              <mat-label> Email</mat-label>
+              <input matInput  [formControl]="email" required>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+              <mat-label>Password</mat-label>
+              <input matInput [type]="hide ? 'password' : 'text'">
+              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" class="hide" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </button>
+            </mat-form-field> 
+           
+ 
+          <div class="register">
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                    <a href="javascript:void(0)"> Forgot password?</a>
+                  </div>
+                    <div class="col-lg-6">
+                      <a href="javascript:void(0)">Register for a new account</a>
+                    </div>
+                </div >
+                    <div class="col-lg-12 submit" >
+                      <button class="btn btn-success " style="background: #c0392b;">Login</button>  
+                    </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+</section>
