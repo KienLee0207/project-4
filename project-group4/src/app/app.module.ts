@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule,MatSelectModule,MatFormFieldModule,MatTabsModule} from '@angular/material';
 import {MatIconModule} from '@angular/material/icon';
+import {MatRadioModule} from '@angular/material/radio';
 import { ProductComponent } from './product/product.component';
 import { ListProductComponent } from './list-product/list-product.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
@@ -40,6 +41,7 @@ import { MyProfileComponent } from './my-profile/my-profile.component';
     MatInputModule,
     MatSelectModule,
     MatDialogModule,
+    MatRadioModule,
     MatTabsModule,
   ],
   providers: [

@@ -1,38 +1,143 @@
 <div class="My-profile" style="margin-top : 30px">
-  <div class="container" style="background: #fff;">
+  <div class="container" style="background: #fff;padding: 20px;">
     <div class="row">
       <div class="col-lg-12">
-  <h2>Welcome Kien</h2>
-
+        <h2>Welcome Kien</h2>
       </div>
       <div class="col-lg-9">
         <mat-tab-group mat-align-tabs="start">
           <mat-tab label="Presonal">
             <div class="container">
-              <div class="row">
-                  <h2>Personal Information</h2>
-                  <div class="col-lg-12">
-                <div  class="account">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-lg-4">
-                        <p>Account Name</p>
+              <div class="row" class="presonal">
+                <h2 style="font-weight: bold;margin-top: 30px;color: #1a334c;"><span>Personal</span>Infomation</h2>
+
+                <div class="col-lg-12">
+                  <div class="account all">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4" style="line-height: 3;">
+                          <p>Account Name</p>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="input-group mb3">
+                            <input type="text" value="Kiên Nguyễn Hữu">
+                          </div>
+                        </div>
                       </div>
-                      <div class="col-lg-8">
-                        <mat-form-field appearance="outline" style="width : 100%">
-                          <input matInput>
-                        </mat-form-field>
+                    </div>
+                  </div>
+                  <div class="name all">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4" style="line-height: 3;">
+                          <p>Name</p>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="input-group mb3">
+                            <input type="text" value="Nguyễn">
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="input-group mb3">
+                            <input type="text" value="Kiên">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sex all">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4" style="line-height: 3;">
+                          <p>Sex</p>
+                        </div>
+                        <div class="col-lg-4" style="line-height: 3;">
+                          <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1" def>Male</mat-radio-button>
+                            <mat-radio-button value="2">Female</mat-radio-button>
+                          </mat-radio-group>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="date all">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <p>Date of birth</p>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="input-group mb3">
+                            <input type="text" value="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="email all">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <p>Email</p>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="input-group mb3">
+                            <input type="text" value="ffqkienlee1@gmail.com">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mobile all">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <p>Mobile</p>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="input-group mb3">
+                            <input type="text" value="0334039718">
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                  </div>
               </div>
-            </div>  
+            </div>
           </mat-tab>
           <mat-tab label="Address">Content 2</mat-tab>
-          <mat-tab label="nation">Content 3</mat-tab>
-          <mat-tab label="My wallet">Content 3</mat-tab>
+          <mat-tab label="nation">
+            <div class="container">
+              <div class="row" class="nation">
+                <div class="col-lg-12">
+                  <h3 style="font-weight: bold;margin-top: 30px;"><span style="font-weight: normal !important;margin-right: 10px;">Country</span>Infomation</h3>
+                </div>
+                <table>
+                  <thead>
+                    <tr>
+                     <td style="font-weight: bold;">Nation</td>
+                     <td>VietNam</td>
+                    </tr>  
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="font-weight: bold;">Language</td>
+                      <td>Vietnamese</td>
+                    </tr>
+                  </tbody>                  
+                </table>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="My wallet"><div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 style="font-weight: bold;margin-top: 30px;"><span style="font-weight: normal !important;margin-right: 10px;">Credit</span>Infomation</h3>
+
+              </div>
+            </div>
+          </div></mat-tab>
         </mat-tab-group>
       </div>
     </div>
