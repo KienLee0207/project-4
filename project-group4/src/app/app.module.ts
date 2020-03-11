@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule,CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
-import {MatDialogModule, ShowOnDirtyErrorStateMatcher, ErrorStateMatcher} from "@angular/material";
+import {MatDialogModule, ShowOnDirtyErrorStateMatcher, ErrorStateMatcher, MatNativeDateModule} from "@angular/material";
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
@@ -17,6 +17,9 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { MyAuctionComponent } from './my-auction/my-auction.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { MyProfileComponent } from './my-profile/my-profile.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { CreateProductComponent } from './create-product/create-product.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,9 @@ import { MyProfileComponent } from './my-profile/my-profile.component';
     ListProductComponent,
     ProductDetailsComponent,
     MyAuctionComponent,
-    MyProfileComponent
+    MyProfileComponent,
+    CreateProductComponent,
+    FooterComponent
   ],
   imports: [
     SlickCarouselModule,

@@ -1,3 +1,4 @@
+import { CreateProductComponent } from './create-product/create-product.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { MyAuctionComponent } from './my-auction/my-auction.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
@@ -17,6 +18,8 @@ const router : Routes = [
   {path :'product-details', component :ProductDetailsComponent},
   {path :'my-auction', component :MyAuctionComponent},
   {path :'my-profile', component :MyProfileComponent},
+  {path :'new-product', component :CreateProductComponent},
+
 
 
   
