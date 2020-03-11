@@ -1,3 +1,15 @@
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0 !important;
+    transition: 1s all;
+}
+.header {
+    width: 100%;
+
+}
 .nav ul li {
     padding: 0 20px;
     list-style: none;
@@ -70,4 +82,31 @@ position: relative;
 }
 .logo h2 {
     font-family: 'Pacifico' !important ;
+}
+.mega-menu {
+    transition: 1s all;
+    position: relative;
+}
+.menu-ab {
+    background: #1a334c;
+    color: #fff;
+    position: absolute;
+    bottom: -60px;
+    transition: 0.5s all;
+    z-index: 1000;
+    display: none;
+    left: 30px;
+}
+.menu-ab li {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+.menu-ab li:hover {
+    background: #576574;
+    color: #fff;
+}
+.mega-menu:hover .menu-ab{
+    display: block;
+    
 }
